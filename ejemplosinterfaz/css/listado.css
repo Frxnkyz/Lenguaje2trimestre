@@ -1,0 +1,26 @@
+/***************************************************************/
+/*                 ESTILO HORARIO DE CLASE                     */
+/***************************************************************/
+
+table{
+    border-collapse: collapse; /*que no salgan las lineas dobles*/
+    width: 80%;
+    background-color: antiquewhite;
+    
+} 
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+td , th {border: 1px solid black ;
+    padding: 5px;
+    width: 16.66%;
+    text-align: center;
+}
+#container{display: flex;    /*display flexible para colocar contenidos*/
+            justify-content: center;
+            align-items: center;/*centrar en vertical*/
+            height: 100vh;
+            }
+#recreo{
+    letter-spacing: 2em; /*crea espacio entre las letras*/
+}

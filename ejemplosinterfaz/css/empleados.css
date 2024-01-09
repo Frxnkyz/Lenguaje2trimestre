@@ -1,0 +1,52 @@
+/*ESTILO GENERAL*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+caption{font-size: 2em;
+        margin-bottom: 20px;
+
+}
+tr:hover {background-color: aquamarine;}
+#container{width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            height: 100vh;
+            font-family: sans-serif;
+            }
+tr:first-child{background-color: aquamarine;
+                color: black;}
+/*ESTILO DE BOTONES*/
+.btn {
+    border: none; 
+    color: white; 
+    padding: 10px ;
+    margin-right: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer; 
+  }
+  
+  .success {background-color: #04AA6D;} 
+  .success:hover {background-color: #46a049;}
+  
+  .info {background-color: #2196F3;} 
+  .info:hover {background: #0b7dda;}
+  
+  .warning {background-color: #ff9800;} 
+  .warning:hover {background: #e68a00;}
+  
+  .danger {background-color: #f44336;} 
+  .danger:hover {background: #da190b;}
+  
+  .default {background-color: #e7e7e7; color: black;} 
+  .default:hover {background: #ddd;}
